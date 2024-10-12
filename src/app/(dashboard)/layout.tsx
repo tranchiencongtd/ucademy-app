@@ -21,8 +21,8 @@ export default async function DashboardLayout({
   if (mongoUser?.status === EUserStatus.INACTIVE)
     return (
       <EmptyData
-        text="Your account is inactive. Please contact the administrator to activate your account."
-        url="https://fb.com/tuan.trananh.0509"
+        text="Tài khoản của bạn đã bị vô hiệu hoá. Vui lòng liên hệ admin."
+        url="https://fb.com/congtc.dev"
       />
     );
   return (

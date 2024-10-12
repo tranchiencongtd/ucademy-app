@@ -5,11 +5,11 @@ const page = () => {
   return (
     <div>
       <h1 className=" text-secondary font-bold text-xl inline-block mb-5">
-        Khóa học Coaching Online 101 với Evondev
+        Học online 1-1 với thầy Trần Chiến Công
       </h1>
       <div></div>
       <Link
-        href="https://fb.com/tuan.trananh.0509"
+        href="https://fb.com/thaycongmath"
         className={primaryButtonClassName}
       >
         Liên hệ

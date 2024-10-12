@@ -124,7 +124,7 @@ const LessonPlayer = ({
                   hasEnded ? "player-bar-animate" : ""
                 )}
               ></div>
-              <MuxPlayer
+              {/* <MuxPlayer
                 streamType="on-demand"
                 playbackId={videoId}
                 onEnded={() => {
@@ -136,7 +136,16 @@ const LessonPlayer = ({
                 autoPlay
                 onTimeUpdate={handleTimeUpdate}
                 minResolution="1080p"
-              />
+              /> */}
+               <>
+              <iframe
+                src={`https://www.youtube.com/embed/hF5ZbwZC8Jo`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                className="w-full h-full object-cover rounded-lg aspect-video"
+              ></iframe>
+              </>
             </div>
           ) : (
             <div className="w-full h-full lg:border borderDarkMode lg:rounded-lg bgDarkMode"></div>

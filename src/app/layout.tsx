@@ -14,17 +14,17 @@ import "./globals.scss";
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://evonhub.dev"),
-  title: "EvonHub - Nền tảng học lập trình trực tuyến",
+  metadataBase: new URL("https://toanthaycong.com"),
+  title: "Toán Thầy Công - Học trực tuyến",
   description:
-    "Nền tảng học lập trình trực tuyến với các khóa học từ cơ bản đến nâng cao về Frontend dành cho người mới bắt đầu và người đã có kinh nghiệm. Được phát triển và xây dựng bởi Evondev.",
+    "Nền tảng học toán trực tuyến với các khóa học từ cơ bản đến nâng cao.. Được phát triển và xây dựng bởi Thầy Trần Chiến Công.",
   keywords:
-    "evonhub, evondev, học lập trình, khóa học lập trình, frontend, khóa học frontend, khóa học html css, khóa học javascript, khóa học reactjs, khóa học nextjs, khóa học html, khóa học css, khóa học figma, khóa học ui ux",
-  applicationName: "EvonHub",
+    "toanthaycong, học toán thcs, toán thcs, Toán Thầy Công, khóa học toán, học toán online",
+  applicationName: "toanthaycong",
   openGraph: {
-    title: "EvonHub - Nền tảng học lập trình trực tuyến",
+    title: "Toán thầy Công - Học trực tuyến",
     description:
-      "Nền tảng học lập trình trực tuyến với các khóa học từ cơ bản đến nâng cao về Frontend dành cho người mới bắt đầu và người đã có kinh nghiệm. Được phát triển và xây dựng bởi Evondev.",
+      "Nền tảng học toán trực tuyến với các khóa học từ cơ bản đến nâng cao.",
     images: ["/seo-cover.jpg"],
   },
   other: {

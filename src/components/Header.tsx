@@ -40,16 +40,16 @@ const Header = ({ notifications }: { notifications: any[] }) => {
       id="header"
     >
       <Link href="/" className="flex items-center gap-2 lg:hidden">
-        <div className="bg-primary p-3 rounded-full size-10 flex-shrink-0">
+        <div className="">
           <Image
-            width={48}
-            height={48}
-            src="/logo.png"
-            alt="EvonHub"
+            width={170}
+            height={170}
+            src="/logo.svg"
+            alt="toanthaycong"
             className="object-contain max-h-full max-w-full"
           ></Image>
         </div>
-        <span className="text-lg font-bold">evonHub</span>
+        {/* <span className="text-lg font-bold">toanthaycong</span> */}
       </Link>
       <div className="rounded-full gap-4 h-10 px-5 bgDarkMode w-[min(100%,390px)] items-center lg:flex hidden borderDarkMode">
         <input

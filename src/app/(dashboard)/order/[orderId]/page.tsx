@@ -63,11 +63,11 @@ const page = async ({
       <div>
         Nếu bạn cần hỗ trợ, vui lòng liên hệ Admin qua fb cá nhân:{" "}
         <Link
-          href="https://fb.com/tuan.trananh.0509"
+          href="https://fb.com/congtc.dev"
           className="underline text-primary"
           target="_blank"
         >
-          Evondev
+          congtcdev
         </Link>
       </div>
     </div>
