@@ -155,7 +155,7 @@ const CourseDetailsPage = ({
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr),400px] gap-8 items-start relative">
       <div>
-        <div className="aspect-video relative mb-8">
+        <div className="aspect-video relative mb-8 youtube-container">
           {data.intro ? (
             <>
               <iframe

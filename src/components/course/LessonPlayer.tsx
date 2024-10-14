@@ -115,7 +115,7 @@ const LessonPlayer = ({
   return (
     <div className="lg:mb-8">
       <FullScreen handle={handle}>
-        <div className="relative group aspect-video lg:mb-5">
+        <div className="relative group aspect-video lg:mb-5 ">
           {videoId ? (
             <div className="relative">
               <div
@@ -139,7 +139,7 @@ const LessonPlayer = ({
               /> */}
                <>
               <iframe
-                src={`https://www.youtube.com/embed/hF5ZbwZC8Jo`}
+                src={`https://www.youtube.com/embed/${videoId}`}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen

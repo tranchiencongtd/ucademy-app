@@ -153,19 +153,19 @@ const LessonItemUpdate = ({
             name="video"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Playback ID</FormLabel>
+                <FormLabel>URL Video</FormLabel>
                 <FormControl>
                   <Input
                     type="text"
                     className=""
-                    placeholder="Playback ID"
+                    placeholder="URL Video"
                     {...field}
                   />
                 </FormControl>
               </FormItem>
             )}
           />
-          <FormField
+          {/* <FormField
             control={form.control}
             name="assetId"
             render={({ field }) => (
@@ -176,7 +176,7 @@ const LessonItemUpdate = ({
                 </FormControl>
               </FormItem>
             )}
-          />
+          /> */}
         </div>
         <FormField
           control={form.control}
